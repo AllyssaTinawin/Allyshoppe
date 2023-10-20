@@ -1,0 +1,75 @@
+
+body {
+  background-image: url('../../../assets/blacksatinbg.jpg'); /* Replace with the path to your image */
+  padding: 4%;
+
+}
+
+h2 {
+  background-color: rgba(255, 63, 149, 0);
+  padding: 10px;
+  margin-bottom: 1em;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: #DA0C81;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 2px;
+  
+}
+
+.container {
+  margin-top: 5em;
+  width: 100%;
+  color: #ffffff;
+  background-color: #8e295a62; /* Change to your desired color */
+  border: 2px solid #ffffff00; /* Change to your desired color */
+  
+}
+ 
+ .checkbox-container input[type="checkbox"]:checked + label::before {
+  background-color: #DA0C81; /* Background color when checked */
+}
+
+.checkbox-container label {
+  padding-left: 10px;
+  
+}
+
+.navbar-form { padding: 0; margin-right: 1em }
+.table { margin: 1 }
+#newaccount { margin-top: 10px }
+
+
+.table.table-bordered {
+  padding: 1em;
+}
+
+.table-bordered th {
+  cursor: pointer;
+}
+
+.table-bordered .caret {
+  position: relative;
+  top: 5px;
+  right: 5px;
+
+
+}
+
+footer {
+  background-color: #00000000;
+  color: #E95793;
+  text-align: center;
+  padding: 30px;
+}
+
+#demo {
+  cursor: pointer;
+}

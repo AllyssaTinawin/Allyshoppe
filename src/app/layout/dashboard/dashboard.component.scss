@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../assets/blacksatinbg.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Adjust to control image size */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    padding: 0%;
+
+}
+
+.shadowed-text {
+  text-shadow: 2px 2px 4px rgba(39, 38, 38, 0.5);
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+
+}
+
+.chart-container {
+    color: #E95793;
+}
+
+.card {
+  background-color: #da0c8137;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 460px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container .profile_image{
+  border: 1px solid Black;
+  border-radius: 10px;
+  padding: -20px;
+  width: 200px;
+  height: 350px;
+  transform: translate( 5%, 1%);
+  display: block; /* Make the image a block-level element for centering */
+  margin: 0 auto; /* Center the image horizontally within the container */
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+
+  
+}
+
+.card p{
+  transform: translate( 30%, -170%);
+}
+.card:hover{
+ box-shadow: 5px 15px 25px rgb(0, 0, 0);
+}
+
+.card .profile_images{
+    border: 1px solid Black;
+    border-radius: 10px;
+    padding: -20px;
+    width: 200px;
+    height: 350px;
+    transform: translate( 5%, 0%);
+    display: block; /* Make the image a block-level element for centering */
+    margin: 0 auto; /* Center the image horizontally within the container */
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+}
+
+.cards {
+  background-color: #da0c8137;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 460px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+  color: #ffffff;
+}
+.cards:hover{
+  box-shadow: 5px 15px 25px rgb(0, 0, 0);
+}
+.cards p{
+  transform: translate( 30%, -170%);
+}
+
+.cards h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.two{
+  background-color: #da0c8137;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 460px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.two:hover{
+  box-shadow: 5px 15px 25px rgb(0, 0, 0);
+}
+.two p{
+  transform: translate( 30%, -170%);
+  text-align: center;
+}
+
+.two h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.three{
+  background-color: #da0c8137;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 460px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ffffff;
+}
+.three:hover{
+  box-shadow: 5px 15px 25px rgb(0, 0, 0);
+}
+.three p{
+  text-align: center;
+  
+}
+
+.three h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.parent{
+    background-color: #ffffff28;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+  }
+  
+  .chart-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.bar {
+    background-color: #E95793;
+    height: 20px; /* Set the bar height */
+    margin: 5px 0;
+}
+
+.bar-label {
+    margin-right: 5px;
+    text-align: right;
+}
+
+.sample-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    table-layout: fixed;
+    text-align: center;
+}
+
+/* Style table headers */
+.sample-table th {
+    background-color: #2a2a2a;
+    border: 1px solid #ff0099;
+    color: #E95793;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style table data cells */
+.sample-table td {
+    background-color: #ffffff65;
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+/* Add alternating row colors */
+.sample-table tbody tr:nth-child(even) {
+    background-color: #ffffff3a;
+    text-align: center;
+}
+
+/* Style the entire table container (optional) */
+.sample-table-container {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: #E95793;
+    text-align: center;
+    padding: 24px;
+}

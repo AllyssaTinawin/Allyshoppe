@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    }
+  
+    *:focus {
+        outline: none;
+    }
+  
+    body {
+      font-family: Arial;
+      background-image: url('/assets/blacksatinbg.jpg');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5%;
+      }
+    .registerbtn {
+    margin: 20px auto;
+    width: 700px;
+    }
+    .registration-screen {
+    background-color: #dc559680;
+    padding: 15px;
+    border-radius: 10px
+    }
+  
+    .app-title {
+    text-align: center;
+    color: #000000;
+    }
+  
+    .registration-form {
+    text-align: left;
+    }
+    .container {
+    margin-bottom: 10px;
+    color: #ECF0F1;
+  
+    .control-group {
+      margin-bottom: 10px;
+    }
+
+    }
+    .border{
+        height: 3px;
+        background:#000000;
+        margin: 20px 0;
+        box-shadow: 0px 0px 4px 2px #FFF2D8;
+    }
+  
+    .Headings{
+        font-family: Arial;
+        font-size: 2rem;
+        font-weight: Bold;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);;
+        margin: 50px 0px;
+        transform: translate(-0%, -70%);
+    }
+    input[type=TextStyle1], input[type=TextStyle2] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+  
+    .TextStyle1 {
+        font-family:Serif;
+        font-weight: Bold;
+        margin-left: 5px;
+        font-size: 15px;
+        color: rgba(60, 60, 60, 0.9);
+        text-align: left;
+    }
+  
+    .TextStyle2 {
+        font-family: Serif;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: 5px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+  
+    input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    width: 200px;
+    transition: border .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    .center-textbox {
+      padding: 10px;
+    }
+  
+    input:focus {
+    border: 2px solid #DA0C81;
+    box-shadow: none;
+    }
+  
+  
+  
+    .registerbtn {
+      background-color: #000000;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+  
+    .registerbtn:hover {
+      opacity: 1;
+      background-color: rgba(80, 80, 80, 0.9);;
+  
+    }
+  
+    .login-link {
+      font-size: 15px;
+      color: #ffffff;
+      display: block;
+        margin-top: 12px;
+    }
+
+    .highlight {
+      color: #ff0090; /* Change to your preferred highlight color */
+      font-weight: bold; /* Optional: Make the text bold */
+      text-decoration: underline; /* Optional: Add an underline to the text */
+      /* Add other styles as needed */
+      font-size: 15x;
+  }
+    footer {
+      background-color: #00000000;
+      color: #E95793;
+      text-align: center;
+      padding: 30px;
+    }

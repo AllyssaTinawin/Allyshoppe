@@ -3,14 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LayoutComponent } from './layout/layout.component';
+
+
+import { LoginModule } from './login/login.module';
+import { LayoutModule } from './layout/layout.module';
+import { RegistrationModule } from './registration/registration.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CardComponent } from './components/card/card.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LoginModule,
+    LayoutModule,
+    RegistrationModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
